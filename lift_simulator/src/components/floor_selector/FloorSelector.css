@@ -1,0 +1,9 @@
+.flex-row{
+    display: flex;
+    gap: 10px;
+}
+
+#start-btn{
+    width: 100px;
+    border-radius: 100px;
+}

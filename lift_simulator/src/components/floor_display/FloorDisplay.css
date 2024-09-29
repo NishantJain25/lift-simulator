@@ -1,0 +1,15 @@
+#floor-display{
+    width: 50vw;
+    height: 200px;
+    background-color: coral;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+    #floor-display {
+        height: 100px;;
+    }
+}

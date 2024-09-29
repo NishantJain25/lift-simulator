@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 2em;
+  gap: 40px
+}
+
+.container{
+  width: 100%;
+  display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    align-items: center;
+  }
+}

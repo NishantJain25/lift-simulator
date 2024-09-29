@@ -1,0 +1,61 @@
+.column{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+}
+#indicator-row{
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px
+}
+.square {
+    border: 1px solid green;
+    height: 20px;
+    width: 20px;
+}
+
+.ground{
+    background-color: green;
+}
+
+.active{
+    background-color: red;
+}
+
+.selected-floor{
+    background-color: red;
+    animation: blink 1s step-start 0s infinite 
+}
+@keyframes blink {
+    0% {
+        background-color: transparent
+    }
+
+ 50% {
+     background-color: red
+ }
+    100% {
+        background-color:  transparent
+    }
+}
+
+.ground.selected-floor{
+    animation: blinkGround 1s step-start 0s infinite
+}
+
+@keyframes blinkGround {
+    0% {
+        background-color: green
+    }
+
+    50% {
+        background-color: red
+    }
+
+    100% {
+        background-color: green
+    }
+}
+p{
+    margin: 0
+}
